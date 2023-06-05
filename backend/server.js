@@ -9,6 +9,8 @@ const app = express();
 dotenv.config();
 connectDB();
 
+app.use(express.json());
+
 app.get("/", (req,res) =>
 {
     res.send("APi is running");
