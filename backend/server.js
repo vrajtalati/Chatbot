@@ -27,4 +27,4 @@ app.use('/api/user',userRoutes)
 //     res.send(singleChat)
 // })
 const PORT=process.env.PORT||5000
-app.listen(PORT,console.log(`server at ${PORT} started`));
+app.listen(PORT,console.log(`server at ${PORT} started`)); 
